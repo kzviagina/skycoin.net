@@ -81,7 +81,7 @@ export default {
       community: 'Community',
       whitepapers: 'Whitepapers',
       wallet: {
-        get: 'Get Wallet',
+        get: 'Download Wallet',
         blurb: 'Skycoin is driving the new internet revolution.',
       },
     },
@@ -119,7 +119,7 @@ export default {
       heading: 'What is Skycoin?',
       lead: 'A currency for digital bandwidth, backed by the new internet. Fast transactions, no transaction fees, Skycoin is a third-generation cryptocurrency supporting a new free and open internet.',
       paragraph: 'Skycoin is the cryptocurrency of Skywire. That means Skycoin has a practical application more than simply acting as another digital currency. The way Skycoin works is this: When you pass something along the Skywire network, you earn Skycoin. When you need to access the bandwidth yourself, pay via Skycoin. It only takes seconds to send and receive, with thousands of transactions per second.',
-      whitepaper: 'Whitepapers',
+      whitepaper: 'Whitepaper',
       speed: {
         heading: 'Speed',
         body: 'We built Skycoin to compete with credit cards and services like AliPay/Apple Pay. Transactions happen in seconds, not minutes.',
@@ -140,15 +140,86 @@ export default {
     network: {
       label: 'Digging deeper',
       heading: 'Obelisk',
-      description: 'The Skycoin Consensus Algorithm',
+      subheading: 'The Skycoin Consensus Algorithm',
       body: 'Bitcoin is no longer decentralized. It is completely controlled by three mining pools. Skycoin’s consensus algorithm is designed from the ground up to achieve Satoshi’s original vision of truly peer-to-peer cash.',
-      link: 'Learn about Network Consensus',
     },
     miner: {
-      label: 'Explore the First Generation of Skyminers',
-      heading: 'Skywire Miner: hardware for the new internet',
-      subscribe: 'Skycoin’s meticulously designed miners are the backbone of the new internet. Energy-efficient Skyminers transmit information to our state-of-the-art mesh network to earn Skycoin without the environmental cost of traditional mining.',
-      mailingList: 'Sign up to be notified about our next release of miners',
+      heading: 'Explore Skyminer',
+      subheading: 'Hardware for the New Internet. Get paid to process bandwidth while you sleep.',
+      link: 'Become a node',
+    },
+    press: {
+      heading: 'Skycoin Picked As Top 5 \n Crypto Projects to Watch in 2018',
+      body: '“Unless you’ve been living under a rock, you’re already well aware of the success Bitcoin and other cryptocurrencies have had this year. Billions of dollars are traded on a daily basis, with some coins and tokens seeing growth above 5,000% in a matter of weeks or even days, and hundreds of rags to riches stories appearing as a result.”',
+    },
+    ecosystem: {
+      heading: 'Skycoin Is The Most Advanced Blockchain Application Platform In The World',
+      subheading: 'Skycoin Ecosystem',
+      fiber: {
+        title: 'Fiber',
+        text: 'Our blockchain platform, an infinite number of blockchains in parallel bound together. ',
+      },
+      obelisk: {
+        title: 'Obelisk',
+        text: 'Developed by OG Ethereum devs, it is the most powerful consensus algorithm to date.',
+      },
+      skycoin: {
+        title: 'Skycoin',
+        text: 'The most powerful and complete cryptocurrency ever created.',
+      },
+      coinHours: {
+        title: 'Coin Hours',
+        text: 'Our network\'s gas. You earn 1 CH every hour you hold Skycoin in your wallet. You burn 50% to transact.',
+      },
+      coinJoin: {
+        title: 'Coin Join',
+        text: 'Completely private, untracable transactions on top of Fiber, our blockchain technology.',
+      },
+      skyledger: {
+        title: 'Skyledger',
+        text: 'Platform for launching your very own ICO on top of Fiber, our blockchain technology.',
+      },
+      skywire: {
+        title: 'Skywire',
+        text: 'The new decentralized Internet, a wireless mesh network that pays you to process bandwidth.',
+      },
+      skyminer: {
+        title: 'Skyminer',
+        text: 'Hardware for the new Internet. Get paid to process bandwidth while you sleep.',
+      },
+      nodes: {
+        title: 'Nodes',
+        text: 'Our community members, and anyone who processes bandwith on Skywire.',
+      },
+      cx: {
+        title: 'CX',
+        text: 'The most powerful programming language on the market.',
+      },
+      cxo: {
+        title: 'CXO',
+        text: 'Peer-to-peer cloud storage. Dropbox for the new Internet.',
+      },
+      kittyCash: {
+        title: 'Kitty Cash',
+        text: 'Remember Cryptokitties? This is an infinitely scalable version. Plus they\'re cute.',
+      },
+      skyVpn: {
+        title: 'SkyVPN',
+        text: 'Decentralized Virtual Private Network running on Skywire.',
+      },
+      skyMessenger: {
+        title: 'SkyMessenger',
+        text: 'Decentralized Encrypted Messenger running on Skywire.',
+      },
+      bbs: {
+        title: 'BBS',
+        text: 'Decentralized Social Network running on Skywire.',
+      },
+    },
+    signup: {
+      heading: 'Free Skycoin. No Joke. Check It Out.',
+      body: 'We give away thousands of Skycoin to our most active newsletter subscribers each month. Join our newsletter now for your chance to win.',
+      button: 'Sign Up',
     },
     roadmap: {
       heading: 'Roadmap',

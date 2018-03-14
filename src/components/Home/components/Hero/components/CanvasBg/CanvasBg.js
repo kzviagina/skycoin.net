@@ -1,13 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import createjs from 'createjs-collection';
 
 import { COLOR } from 'config';
-import media from 'utils/media';
 
 const Wrapper = styled.div`
   position: absolute;
-  top: 0;
+  top: 40px;
   left: 50%;
   transform: translateX(-50%);
   max-height: 100%;

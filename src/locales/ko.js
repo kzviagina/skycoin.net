@@ -140,15 +140,86 @@ export default {
     network: {
       label: '더 보기',
       heading: 'Obelisk',
-      description: '스카이코인 합의 알고리즘',
+      subheading: '스카이코인 합의 알고리즘',
       body: 'Bitcoin is no longer decentralized. It is completely controlled by three mining pools. Skycoin’s consensus algorithm is designed from the ground up to achieve Satoshi’s original vision of truly peer-to-peer cash.',
-      link: '네트워크 합의에 대해 알아보기',
     },
     miner: {
-      label: 'Explore the First Generation of Skyminers',
-      heading: '스카이와이어 채굴기 : 차세대 인터넷을 위한 하드웨어',
-      subscribe: 'Skycoin’s meticulously designed miners are the backbone of the new internet. Energy-efficient Skyminers transmit information to our state-of-the-art mesh network to earn Skycoin without the environmental cost of traditional mining.',
-      mailingList: 'Sign up to be notified about our next release of miners',
+      heading: 'Explore Skyminer | ko',
+      subheading: 'Hardware for the New Internet. Get paid to process bandwidth while you sleep. | ko',
+      link: 'Become a node | ko',
+    },
+    press: {
+      heading: 'Skycoin Picked As Top 5 \n Crypto Projects to Watch in 2018 | ko',
+      body: '“Unless you’ve been living under a rock, you’re already well aware of the success Bitcoin and other cryptocurrencies have had this year. Billions of dollars are traded on a daily basis, with some coins and tokens seeing growth above 5,000% in a matter of weeks or even days, and hundreds of rags to riches stories appearing as a result.” | ko',
+    },
+    ecosystem: {
+      heading: 'Skycoin Is The Most Advanced Blockchain Application Platform In The World | ko',
+      subheading: 'Skycoin Ecosystem | ko',
+      fiber: {
+        title: 'Fiber | ko',
+        text: 'Our blockchain platform, an infinite number of blockchains in parallel bound together.  | ko',
+      },
+      obelisk: {
+        title: 'Obelisk | ko',
+        text: 'Developed by OG Ethereum devs, it is the most powerful consensus algorithm to date. | ko',
+      },
+      skycoin: {
+        title: 'Skycoin | ko',
+        text: 'The most powerful and complete cryptocurrency ever created. | ko',
+      },
+      coinHours: {
+        title: 'Coin Hours | ko',
+        text: 'Our network\'s gas. You earn 1 CH every hour you hold Skycoin in your wallet. You burn 50% to transact. | ko',
+      },
+      coinJoin: {
+        title: 'Coin Join | ko',
+        text: 'Completely private, untracable transactions on top of Fiber, our blockchain technology. | ko',
+      },
+      skyledger: {
+        title: 'Skyledger | ko',
+        text: 'Platform for launching your very own ICO on top of Fiber, our blockchain technology. | ko',
+      },
+      skywire: {
+        title: 'Skywire | ko',
+        text: 'The new decentralized Internet, a wireless mesh network that pays you to process bandwidth. | ko',
+      },
+      skyminer: {
+        title: 'Skyminer | ko',
+        text: 'Hardware for the new Internet. Get paid to process bandwidth while you sleep. | ko',
+      },
+      nodes: {
+        title: 'Nodes | ko',
+        text: 'Our community members, and anyone who processes bandwith on Skywire. | ko',
+      },
+      cx: {
+        title: 'CX | ko',
+        text: 'The most powerful programming language on the market. | ko',
+      },
+      cxo: {
+        title: 'CXO | ko',
+        text: 'Peer-to-peer cloud storage. Dropbox for the new Internet. | ko',
+      },
+      kittyCash: {
+        title: 'Kitty Cash | ko',
+        text: 'Remember Cryptokitties? This is an infinitely scalable version. Plus they\'re cute. | ko',
+      },
+      skyVpn: {
+        title: 'SkyVPN | ko',
+        text: 'Decentralized Virtual Private Network running on Skywire. | ko',
+      },
+      skyMessenger: {
+        title: 'SkyMessenger | ko',
+        text: 'Decentralized Encrypted Messenger running on Skywire. | ko',
+      },
+      bbs: {
+        title: 'BBS | ko',
+        text: 'Decentralized Social Network running on Skywire. | ko',
+      },
+    },
+    signup: {
+      heading: 'Free Skycoin. No Joke. Check It Out. | ko',
+      body: 'We give away thousands of Skycoin to our most active newsletter subscribers each month. Join our newsletter now for your chance to win. | ko',
+      button: 'Sign Up | ko',
     },
     roadmap: {
       heading: '로드맵',
