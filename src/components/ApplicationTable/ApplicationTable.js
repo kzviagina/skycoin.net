@@ -71,7 +71,6 @@ const Comment = styled(Text) `
 
 const TdPadding = styled.td`
   text-align:left;
-  // padding-left: ${rem(SPACE[13])};
 `;
 
 const ApplicationTable = ({ list }) => {
