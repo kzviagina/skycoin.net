@@ -1,10 +1,37 @@
 import React from 'react';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { rem } from 'polished';
-import Table, { TableWrapper } from 'components/Table';
 import Link from 'components/Link';
+import { TableWrapper } from 'components/Table';
+
+import media from 'utils/media';
 
 import { COLORS, SPACE, BREAKPOINTS } from 'config';
+
+const Table = styled.table`
+  width: 100%;
+  min-width: ${rem(800)};
+
+  tr {
+    padding-bottom: ${rem(10)};
+  }
+
+  td, th {
+    height: ${rem(15)};
+
+    ${media.sm.css`
+      height: ${rem(20)};
+    `}
+  }
+
+  a {
+    color: ${COLORS.base};
+    text-decoration: none;
+  }
+
+  margin-bottom: 100px;
+`;
 
 const StyledTable = Table.extend`
   td {
@@ -19,13 +46,13 @@ const StyledTable = Table.extend`
     tr {
       display: block;
       padding: ${rem(SPACE[4])} 0;
-      border-top: 1px solid ${COLORS.gray[1]};
     }
 
     td {
       border: 0;
       display: block;
       height: auto;
+      margin: 0;
 
       &:first-of-type {
         width: auto;
@@ -36,7 +63,7 @@ const StyledTable = Table.extend`
 
 
 const DownloadTableSimple = ({ list }) => (
-  <TableWrapper>
+  <TableWrapper mx={-SPACE[4]} px={SPACE[4]} mb={SPACE[4]}>
     <StyledTable>
       <tbody>
         {list.map(({ name, download }, i) => (
