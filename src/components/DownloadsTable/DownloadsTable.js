@@ -47,7 +47,7 @@ const DownladsTable = ({ title, list, id }) => (
   <div>
     <Container>
       <Box width={[1 / 1, 1 / 1, 2 / 3]} my={[5, 7]}>
-        <Heading heavy as="h2" fontSize={[rem(FONT_SIZES[10]), rem(FONT_SIZES[10])]} color="black" mb={[rem(40), rem(40)]} id={id}>
+        <Heading heavy as="h2" fontSize={[rem(FONT_SIZES[7]), rem(FONT_SIZES[7])]} color="black" mb={[rem(40), rem(40)]} id={id}>
           <FormattedMessage id={title} />
         </Heading>
       </Box>
